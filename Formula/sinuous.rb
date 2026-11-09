@@ -5,23 +5,23 @@ class Sinuous < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/abusch/sinuous/releases/download/v0.4.0/sinuous-aarch64-apple-darwin.tar.gz"
-      sha256 "6b46d5ed3f0d6c8cae0c852568a0dcf8f947a2befe3cda5f850632c223eff996"
+      url "https://github.com/abusch/sinuous/releases/download/v0.5.0/sinuous-aarch64-apple-darwin.tar.gz"
+      sha256 "1dc9f2aa40bcfcd93d58e2d4da08aaaaddf418d1d660029a83a2873c569be19e"
     end
     on_intel do
-      url "https://github.com/abusch/sinuous/releases/download/v0.4.0/sinuous-x86_64-apple-darwin.tar.gz"
-      sha256 "aceff18d1963af89fd4af45dc827878d8b514498f23ecf7764d70835e3c81a99"
+      url "https://github.com/abusch/sinuous/releases/download/v0.5.0/sinuous-x86_64-apple-darwin.tar.gz"
+      sha256 "ee483ab6dd777114fe35cefcaadc1bf777760ea93a168678d02de028df5413b1"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/abusch/sinuous/releases/download/v0.4.0/sinuous-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "4322d95176b3025efa870281dd24426669a66d398014831efdbcb6f89d79742e"
+      url "https://github.com/abusch/sinuous/releases/download/v0.5.0/sinuous-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "e2376814b78750f0b98bfd9476811e69cc665e446eabc8407477cc632461f596"
     end
     on_intel do
-      url "https://github.com/abusch/sinuous/releases/download/v0.4.0/sinuous-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "49b176094f90bd598b135a47a28b409e0547b638d7addef76be0186b911bab5c"
+      url "https://github.com/abusch/sinuous/releases/download/v0.5.0/sinuous-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "cfe36e04da6fe1bb3d1067aeb02023fffec9f5b4ad6beea3d449107bcbf0477c"
     end
   end
 
